@@ -6,6 +6,7 @@ mod certificate;
 mod fragment_log;
 mod leadership_log;
 mod linear_fee;
+mod mempool;
 mod old_address;
 mod settings;
 mod transaction_output;
@@ -23,6 +24,7 @@ pub use self::certificate::{
 pub use self::fragment_log::{FragmentLog, FragmentOrigin, FragmentStatus};
 pub use self::leadership_log::{EnclaveLeaderId, LeadershipLog, LeadershipLogId};
 pub use self::linear_fee::LinearFeeDef;
+pub use self::mempool::Mempool;
 pub use self::old_address::OldAddress;
 pub use self::settings::*;
 pub use self::transaction_output::TransactionOutput;
